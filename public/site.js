@@ -1,0 +1,2 @@
+const replies = {playful: "Then let's test that theory. Coffee this weekend?", warm: "This already sounds like my kind of adventure. I'd love to grab coffee with you.", direct: "Let's get coffee Saturday. Are you free in the afternoon?"};
+document.querySelectorAll('[data-tone]').forEach(button => button.addEventListener('click', () => { document.querySelectorAll('[data-tone]').forEach(item => item.setAttribute('aria-pressed', String(item === button))); document.querySelector('#reply').textContent = replies[button.dataset.tone]; }));
