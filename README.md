@@ -27,3 +27,7 @@ bun run preview
 ## 验证
 
 Bun 静态构建；通过本地 HTTP 检查首页、Terms、Privacy 与引用资源；使用 Chromium 在 1440、768、390、320 像素宽度检查页面溢出、图片、页脚、FAQ 与语气切换。截图在忽略的 `validation/` 目录。
+
+## 2026-10-29 visual refinement
+
+Removed decorative arrows, added the AceCut envelope icon to every footer, and replaced hero/closing CTAs with App Store badges styled in the app’s own colors. Brand links do not underline on hover. Until a verified app listing is available, badges use the App Store search URL (as on AceCut); development availability disclosures remain. Replace search targets with the verified app ID at launch.
